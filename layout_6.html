@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kite (Box Model)</title>
+        <style>
+            #container{
+                width: 600px;
+                margin: 50px auto;
+            }
+            .box{
+                background-color: teal;
+                height: 120px;
+                width: 120px;
+                border-radius: 4px;
+                margin: 15px;
+            }
+            .float{
+                float: left;
+            }
+            .clear{
+                clear: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="box float"></div>
+            <div class="box float"></div>
+            <div class="box float"></div>
+            <div class="box float"></div>
+            <div class="box float clear"></div>
+            <div class="box float"></div>
+            <div class="box float"></div>
+            <div class="box float clear"></div>
+            <div class="box float"></div>
+            <div class="box float clear"></div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
